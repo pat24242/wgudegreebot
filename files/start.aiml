@@ -61,15 +61,15 @@
         <template> Which aspect of programming interests you the most? 
             <button>
                 <text>Designing user interfaces</text>
-                <postback>frontend</postback>
+                <postback>frontendfind</postback>
             </button>
             <button>
                 <text>Working with logic and data strucutres</text>
-                <postback>backend</postback>
+                <postback>backendfind</postback>
             </button>
             <button>
                 <text>Both!</text>
-                <postback>fullstack</postback>
+                <postback>fullstackfind</postback>
             </button>
         </template>
     </category>
@@ -78,11 +78,11 @@
         <template> Do you enjoy working with math and statistics?
             <button>
                 <text>Yes</text>
-                <postback>datascientist</postback>
+                <postback>datascientistfind</postback>
             </button>
             <button>
                 <text>No</text>
-                <postback>dataengineer</postback>
+                <postback>dataengineerfind</postback>
             </button>
         </template>
     </category>
