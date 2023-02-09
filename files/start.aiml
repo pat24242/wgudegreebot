@@ -6,7 +6,7 @@
         <template>Greetings, I am the Computer Scient Department's Career Search bot. Please select an option from the menu below to begin: 
             <button>
                 <text>Learn about possible careers</text>
-                <postback>career</postback>
+                <postback>careers</postback>
             </button>
             <button>
                 <text>Answer questions to find the right career for me</text>
