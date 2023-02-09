@@ -17,7 +17,7 @@
    
    <category>
         <pattern>careers</pattern>
-        <template>Here are 5 Computer Science careers that you can look into with your degree
+        <template>Below are 5 popular career options we recommend within the field of Computer Science
             <button>
                 <text>Data Scientist</text>
                 <postback>datascientist</postback>
@@ -36,7 +36,7 @@
             </button>
             <button>
                 <text>Full-Stack Developer</text>
-                <postback>Full-Stack</postback>
+                <postback>fullstack</postback>
             </button>
         </template>
     </category>

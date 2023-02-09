@@ -9,11 +9,11 @@
                 <url>https://www.coursera.org/articles/back-end-developer</url>
             </link>
             <button>
-                <text>Click here to explore other careers.</text>
+                <text>Click here look at other possible career paths</text>
                 <postback>careers</postback>
             </button>
              <button>
-                <text>Click here for help picking the right career.</text>
+                <text>Click here to begin your career search again</text>
                 <postback>careersearch</postback>
             </button>
         </template>
@@ -33,7 +33,7 @@
                 <postback>careers</postback>
             </button>
              <button>
-                <text>Click here to begin your career search again.</text>
+                <text>Click here to begin your career search again</text>
                 <postback>careersearch</postback>
             </button>
         </template>
