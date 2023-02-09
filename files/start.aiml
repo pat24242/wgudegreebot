@@ -1,4 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
-</aiml>
+    
+    <category>
+        <pattern>start</pattern>
+        <template>Greetings, I am the Computer Scient Department's Career Search bot. Please select an option from the menu below to begin: 
+            <button>
+                <text>Learn about possible careers</text>
+                <postback>career</postback>
+            </button>
+            <button>
+                <text>Answer questions to find the right career for me</text>
+                <postback>careersearch</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>careers</pattern>
+        <template>Here are 5 Computer Science careers that you can look into with your degree
+            <button>
+                <text>Data Scientist</text>
+                <postback>datascientist</postback>
+            </button>
+            <button>
+                <text>Data Engineer</text>
+                <postback>dataengineer</postback>
+            </button>
+            <button>
+                <text>Front-End Developer</text>
+                <postback>frontend</postback>
+            </button>
+            <button>
+                <text>Back-End Developer</text>
+                <postback>backend</postback>
+            </button>
+            <button>
+                <text>Full-Stack Developer</text>
+                <postback>Full-Stack</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>careersearch</pattern>
+        <template>Please answer the questions below to assist in your search.
+        <br></br><br></br>
+        What aspect of Computer Science interests you the most?
+            <button>
+                <text>Programming</text>
+                <postback>developer</postback>
+            </button>
+            <button>
+                <text>Working with Data</text>
+                <postback>Data</postback>
+            </button>
+        </template>
+      </category>
+      <category>
+        <pattern>developer</pattern>
+        <template> Which aspect of programming interests you the most? 
+            <button>
+                <text>Designing user interfaces</text>
+                <postback>frontend</postback>
+            </button>
+            <button>
+                <text>Working with logic and data strucutres</text>
+                <postback>backend</postback>
+            </button>
+            <button>
+                <text>Both!</text>
+                <postback>fullstack</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>data</pattern>
+        <template> Do you enjoy working with math and statistics?
+            <button>
+                <text>Yes</text>
+                <postback>datascientist</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>dataengineer</postback>
+            </button>
+        </template>
+    </category>
+   </aiml>
+        
